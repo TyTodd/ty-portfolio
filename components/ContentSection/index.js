@@ -76,6 +76,8 @@ const CodeBlock = {
     const style = textToStyle(alt).style;
     if (alt.includes("youtube")) {
       return <YoutubeEmbed embedId={src} />;
+    } else if (alt.includes("video")) {
+      return <video src={src} controls></video>;
     } else {
       return (
         <img

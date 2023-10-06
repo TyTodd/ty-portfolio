@@ -1,6 +1,6 @@
 {
   "name": "Tyrin",
-  "headerTaglineOne": "Hi I'm Tyrin",
+  "headerTaglineOne": "Hi I'm Tyrin,",
   "headerTaglineTwo": "Welcome to my",
   "headerTaglineThree": "portfolio",
   "headerTaglineFour": "",
@@ -12,28 +12,22 @@
     {
       "id": "1",
       "title": "Github",
-      "link": "https://github.com/chetanverma16"
+      "link": "https://github.com/TyTodd"
     },
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/chetanverma7/"
+      "link": "https://www.linkedin.com/in/tyrin-ian-todd/"
     },
-    {
-      "id": "3",
-      "title": "Twitter",
-      "link": "https://twitter.com/realchetanverma"
-    },
-    { "id": "4", "title": "Blog", "link": "https://blog.chetanverma.com/" },
-    { "id": "5", "title": "Email", "link": "mailto:hello@chetanverma.com" }
+    { "id": "3", "title": "Email", "link": "mailto:tytodd25@gmail.com" }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "Project One Test",
-      "description": "Web Design",
-      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      "url": "http://chetanverma.com/"
+      "title": "Semi-Autonomous Robot",
+      "description": "Third place in MIT's 2.S007 Semi-Autonomous Robotics Competition",
+      "imageSrc": "../images/2s007/holding_robots_compressed.jpg",
+      "url": "/blog/2S007"
     },
     {
       "id": "2",

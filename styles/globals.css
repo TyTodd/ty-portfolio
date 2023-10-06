@@ -12,6 +12,13 @@ body {
   @apply dark:bg-black dark:text-white;
 }
 
+.md-img {
+  display: block;
+  max-width: 230px;
+  max-height: 95px;
+  width: auto;
+  height: auto;
+}
 .gradient-circle {
   position: absolute;
   pointer-events: none;

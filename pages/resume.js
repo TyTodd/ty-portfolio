@@ -10,6 +10,7 @@ import { useTheme } from "next-themes";
 import { name, showResume } from "../data/portfolio.json";
 import { resume } from "../data/portfolio.json";
 import data from "../data/portfolio.json";
+import PdfViewer from "../components/PdfViewer";
 
 const Resume = () => {
   const router = useRouter();
@@ -17,7 +18,7 @@ const Resume = () => {
   const [mount, setMount] = useState(false);
 
   useEffect(() => {
-    setMount(true);
+    setMount(false);
     if (!showResume) {
       router.push("/");
     }
@@ -38,7 +39,9 @@ const Resume = () => {
         }`}
       >
         <Header isBlog />
-        {mount && (
+        <h1>PDF Viewr</h1>
+        <PdfViewer pdfUrl={"../College_Resume.pdf"} />
+        {/* {mount && (
           <div className="mt-10 w-full flex flex-col items-center">
             <div
               className={`w-full ${
@@ -125,7 +128,7 @@ const Resume = () => {
               </div>
             </div>
           </div>
-        )}
+        )} */}
       </div>
     </>
   );

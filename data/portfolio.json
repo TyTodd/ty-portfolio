@@ -7,7 +7,7 @@
   "showCursor": true,
   "showBlog": true,
   "darkMode": true,
-  "showResume": true,
+  "showResume": false,
   "socials": [
     {
       "id": "1",
@@ -91,7 +91,7 @@
   "aboutpara": "Hi my name is Tyrin I am a junior at MIT majoring in Computer Science and Artificial Intelligence. I love to take on projects that challenge me and allow me to learn new things or solve interesting problems. Feel free to reach out if one of my projects interets you. Below are some of my favorite projects but you can find more if you click \"All Projects\" at the top.",
 
   "resume": {
-    "tagline": "tagline",
+    "tagline": "no tagline",
     "description": "description",
     "experiences": [
       {

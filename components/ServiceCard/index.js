@@ -9,7 +9,7 @@ const ServiceCard = ({ name, date, description, link }) => {
     setMounted(true);
   }, []);
   return (
-    <a href={link} target="_blank">
+    <a href={link} target="_blank" rel="noreferrer">
       <div
         className={`w-full p-2 mob:p-4 rounded-lg transition-all ease-out duration-300 ${
           mounted && theme === "dark"

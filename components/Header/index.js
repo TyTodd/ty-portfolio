@@ -6,7 +6,12 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 
-const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
+const Header = ({
+  handleWorkScroll,
+  handleAboutScroll,
+  handleAwardsScroll,
+  isBlog,
+}) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -71,12 +76,13 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 <div className="grid grid-cols-1">
                   <Button onClick={handleAboutScroll}>About</Button>
                   <Button onClick={handleWorkScroll}>Featured Projects</Button>
+                  <Button onClick={handleAwardsScroll}>Awards</Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>
                       All Projects
                     </Button>
                   )}
-                  {/* {showResume && (
+                  {showResume && (
                     <Button
                       onClick={() =>
                         window.open("mailto:hello@chetanverma.com")
@@ -84,7 +90,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     >
                       Resume
                     </Button>
-                  )} */}
+                  )}
 
                   <Button
                     onClick={() => window.open("mailto:hello@chetanverma.com")}
@@ -102,14 +108,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                       All Projects
                     </Button>
                   )}
-                  {/* {showResume && (
+                  {showResume && (
                     <Button
                       onClick={() => router.push("/resume")}
                       classes="first:ml-1"
                     >
                       Resume
                     </Button>
-                  )} */}
+                  )}
 
                   <Button
                     onClick={() => window.open("mailto:hello@chetanverma.com")}
@@ -137,17 +143,18 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           <div className="flex">
             <Button onClick={handleAboutScroll}>About</Button>
             <Button onClick={handleWorkScroll}>Featured Projects</Button>
+            <Button onClick={handleAwardsScroll}>Awards</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>All Projects</Button>
             )}
-            {/* {showResume && (
+            {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
                 Resume
               </Button>
-            )} */}
+            )}
 
             <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
               Contact
@@ -169,14 +176,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>All Projects</Button>
             )}
-            {/* {showResume && (
+            {showResume && (
               <Button
                 onClick={() => router.push("/resume")}
                 classes="first:ml-1"
               >
                 Resume
               </Button>
-            )} */}
+            )}
 
             <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
               Contact

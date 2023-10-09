@@ -12,6 +12,11 @@ body {
   @apply dark:bg-black dark:text-white;
 }
 
+.top-div {
+  display: flex;
+  flex-direction: row;
+}
+
 .md-img {
   display: block;
   max-width: 230px;

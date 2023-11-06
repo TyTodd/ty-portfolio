@@ -30,18 +30,25 @@
       "url": "/blog/2S007"
     },
     {
-      "id": "3",
+      "id": "2",
       "title": "Dimension 3D",
       "description": "A 3-dimensional strategy board game that tests your knowledge of geometry.",
       "imageSrc": "../images/dimension/dimension_ss.jpg",
       "url": "/blog/dimension_3d"
     },
     {
-      "id": "2",
+      "id": "3",
       "title": "Phone Charging Station Kiosk",
       "description": "Touch operated kiosk where users can lock up their phones and charge them.",
       "imageSrc": "../images/charging_station/completed.jpg",
       "url": "/blog/charging_station"
+    },
+    {
+      "id": "4",
+      "title": "Present Pastell",
+      "description": "A journaling web app that assigns your entries a color and custom playlist based off your mood.",
+      "imageSrc": "../images/present_pastell/songs_page1.jpg",
+      "url": "/blog/present_pastell"
     }
   ],
   "services": [

@@ -87,3 +87,8 @@ body {
   background: inherit;
   border-radius: inherit;
 }
+
+#wrapper {
+  margin-left: 500px;
+  margin-right: 500px;
+}

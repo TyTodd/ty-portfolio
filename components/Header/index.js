@@ -84,16 +84,14 @@ const Header = ({
                   )}
                   {showResume && (
                     <Button
-                      onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
-                      }
+                      onClick={() => window.open("mailto:tytodd25@gmail.com")}
                     >
                       Resume
                     </Button>
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:tytodd25@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -118,7 +116,7 @@ const Header = ({
                   )}
 
                   <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
+                    onClick={() => window.open("mailto:tytodd25@gmail.com")}
                   >
                     Contact
                   </Button>
@@ -156,7 +154,7 @@ const Header = ({
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:tytodd25@gmail.com")}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
@@ -185,7 +183,7 @@ const Header = ({
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open("mailto:tytodd25@gmail.com")}>
               Contact
             </Button>
 

@@ -55,42 +55,49 @@
     {
       "id": "1",
       "title": "MIT Sandbox",
-      "date": "2023",
+      "date": "Fall 2023",
       "description": "$1000 funding awarded to MIT students to pursue startups. Cick to learn more about my startup, Scrbe.",
       "link": "https://use-scribe.co/"
     },
     {
       "id": "2",
       "title": "Third Place in 2.S007 Semi-Autonomous Robotics Competition",
-      "date": "2023",
+      "date": "Spring 023",
       "description": "Click to learn more",
       "link": "https://tyrin.netlify.app/blog/2s007"
     },
     {
+      "id": "7",
+      "title": "MIT Weblab Best Backend Feature Award",
+      "date": "Winter 2023",
+      "description": "For my project, Present Pastell, an jounaling app that uses GPT to give your entries colors and generate a custom Spotify playlist based off your emotions. Click to learn more about the project.",
+      "link": "https://tyrin.netlify.app/blog/present_pastell"
+    },
+    {
       "id": "3",
       "title": "HackMIT Hackathon Finalist",
-      "date": "2021",
+      "date": "Fall 2021",
       "description": "I was a 2021 HackMIT Hackathon finalist for my app that tracks police brutality. Click to see the full project",
       "link": "https://tyrin.netlify.app/blog/RateMyProtector"
     },
     {
       "id": "4",
       "title": "First Place in National Environmentors Science Fair ($2500 Scholarship) ",
-      "date": "2019",
+      "date": "Summer 2019",
       "description": "I won this award in 2019 for my research on developing a low-cost internet connected particulate matter sensor network",
       "link": "https://www.psu.edu/news/academics/story/penn-state-environmentors-team-wins-first-place-national-competition/"
     },
     {
       "id": "5",
       "title": "Patrick Wang $1700 Grant For Engineering Project",
-      "date": "2019",
+      "date": "Fall 2019",
       "description": "This grant was awarded to me to develop a Phone Charging Station Kiosk. Click to learn more about the project",
       "link": "https://tyrin.netlify.app/blog/charging_station"
     },
     {
       "id": "6",
       "title": "Hack Pennsylvania Hackathon Best Hardware Award",
-      "date": "2019",
+      "date": "Spring 2018",
       "description": "I won this award at Hack Pennsylvania for a fun little robot I made called The Office Bot. Click to learn more about the project.",
       "link": "https://tyrin.netlify.app/blog/the_office_bot"
     }

@@ -1,9 +1,14 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/resume": "pages/resume.js",
+  "/api/portfolio": "pages/api/portfolio.js",
+  "/": "pages/index.html",
+  "/resume": "pages/resume.html",
+  "/edit": "pages/edit.html",
+  "/api/blog": "pages/api/blog.js",
+  "/api/blog/edit": "pages/api/blog/edit.js",
+  "/blog/[slug]": "pages/blog/[slug].js",
   "/blog": "pages/blog.js",
-  "/blog/[slug]": "pages/blog/[slug].js"
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }

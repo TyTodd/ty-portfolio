@@ -7,7 +7,7 @@
   "showCursor": true,
   "showBlog": true,
   "darkMode": true,
-  "showResume": false,
+  "showResume": true,
   "socials": [
     {
       "id": "1",

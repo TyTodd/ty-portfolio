@@ -74,17 +74,31 @@ const Header = ({
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
+<<<<<<< HEAD
                   <Button onClick={handleAboutScroll}>About</Button>
                   <Button onClick={handleWorkScroll}>Featured Projects</Button>
                   <Button onClick={handleAwardsScroll}>Awards</Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>
                       All Projects
+=======
+                  {/* <Button onClick={handleAboutScroll}>About</Button> */}
+                  {/* <Button onClick={handleWorkScroll}> Projects</Button> */}
+                  <Button onClick={handleAwardsScroll}>Awards</Button>
+                  {showBlog && (
+                    <Button onClick={() => router.push("/blog")}>
+                      Projects
+>>>>>>> 3afe01a5 (added resume page)
                     </Button>
                   )}
                   {showResume && (
                     <Button
+<<<<<<< HEAD
                       onClick={() => window.open("mailto:tytodd25@gmail.com")}
+=======
+                      onClick={() => router.push("/resume")}
+                      classes="first:ml-1"
+>>>>>>> 3afe01a5 (added resume page)
                     >
                       Resume
                     </Button>
@@ -103,6 +117,7 @@ const Header = ({
                   </Button>
                   {showBlog && (
                     <Button onClick={() => router.push("/blog")}>
+<<<<<<< HEAD
                       All Projects
                     </Button>
                   )}
@@ -112,6 +127,9 @@ const Header = ({
                       classes="first:ml-1"
                     >
                       Resume
+=======
+                      Projects
+>>>>>>> 3afe01a5 (added resume page)
                     </Button>
                   )}
 
@@ -139,11 +157,18 @@ const Header = ({
         </h1>
         {!isBlog ? (
           <div className="flex">
+<<<<<<< HEAD
             <Button onClick={handleAboutScroll}>About</Button>
             <Button onClick={handleWorkScroll}>Featured Projects</Button>
             <Button onClick={handleAwardsScroll}>Awards</Button>
             {showBlog && (
               <Button onClick={() => router.push("/blog")}>All Projects</Button>
+=======
+            {/* <Button onClick={handleAboutScroll}>About</Button> */}
+            {/* <Button onClick={handleWorkScroll}>Featured Projects</Button> */}
+            {showBlog && (
+              <Button onClick={() => router.push("/blog")}>Projects</Button>
+>>>>>>> 3afe01a5 (added resume page)
             )}
             {showResume && (
               <Button
@@ -153,6 +178,10 @@ const Header = ({
                 Resume
               </Button>
             )}
+<<<<<<< HEAD
+=======
+            <Button onClick={handleAwardsScroll}>Awards</Button>
+>>>>>>> 3afe01a5 (added resume page)
 
             <Button onClick={() => window.open("mailto:tytodd25@gmail.com")}>
               Contact
@@ -172,7 +201,11 @@ const Header = ({
           <div className="flex">
             <Button onClick={() => router.push("/")}>Home</Button>
             {showBlog && (
+<<<<<<< HEAD
               <Button onClick={() => router.push("/blog")}>All Projects</Button>
+=======
+              <Button onClick={() => router.push("/blog")}>Projects</Button>
+>>>>>>> 3afe01a5 (added resume page)
             )}
             {showResume && (
               <Button

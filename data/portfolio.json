@@ -4,7 +4,7 @@
   "headerTaglineTwo": "Welcome to my",
   "headerTaglineThree": "portfolio",
   "headerTaglineFour": "",
-  "showCursor": true,
+  "showCursor": false,
   "showBlog": true,
   "darkMode": true,
   "showResume": true,
@@ -23,6 +23,13 @@
   ],
   "projects": [
     {
+      "id": "3",
+      "title": "Self Driving Car",
+      "description": "Self driving car that uses a LiDAR, localization, and path planning to navigate a course",
+      "imageSrc": "../images/RSS/rss_robots.jpeg",
+      "url": "/blog/RSS"
+    },
+    {
       "id": "1",
       "title": "Semi-Autonomous Robot",
       "description": "Third place in MIT's 2.S007 Semi-Autonomous Robotics Competition",
@@ -35,13 +42,6 @@
       "description": "A 3-dimensional strategy board game that tests your knowledge of geometry.",
       "imageSrc": "../images/dimension/dimension_ss.jpg",
       "url": "/blog/dimension_3d"
-    },
-    {
-      "id": "3",
-      "title": "Phone Charging Station Kiosk",
-      "description": "Touch operated kiosk where users can lock up their phones and charge them.",
-      "imageSrc": "../images/charging_station/completed.jpg",
-      "url": "/blog/charging_station"
     },
     {
       "id": "4",
@@ -62,7 +62,7 @@
     {
       "id": "2",
       "title": "Third Place in 2.S007 Semi-Autonomous Robotics Competition",
-      "date": "Spring 023",
+      "date": "Spring 2023",
       "description": "Click to learn more",
       "link": "https://tyrin.netlify.app/blog/2s007"
     },
@@ -102,7 +102,7 @@
       "link": "https://tyrin.netlify.app/blog/the_office_bot"
     }
   ],
-  "aboutpara": "Hi my name is Tyrin I am a junior at MIT majoring in Computer Science and Artificial Intelligence. I love to take on projects that challenge me and allow me to learn new things or solve interesting problems. Feel free to reach out if one of my projects interets you. Below are some of my favorite projects but you can find more if you click \"All Projects\" at the top.",
+  "aboutpara": "Hi my name is Tyrin I am a senior at MIT majoring in Computer Science and Artificial Intelligence. I love to take on projects that challenge me and allow me to learn new things or solve interesting problems. Feel free to reach out if one of my projects interests you. Below are some of my favorite projects but you can find more if you click \"Projects\" in the top right.",
 
   "resume": {
     "tagline": "no tagline",

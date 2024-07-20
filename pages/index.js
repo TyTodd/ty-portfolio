@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 import Head from "next/head";
 import Button from "../components/Button";
 import Link from "next/link";
-import Cursor from "../components/Cursor";
+// import Cursor from "../components/Cursor";
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -62,7 +62,7 @@ export default function Home() {
       className={`relative ${data.showCursor && "cursor-none"}`}
       id="wrapper"
     >
-      {data.showCursor && <Cursor />}
+      {/* {data.showCursor && <Cursor />} */}
       <Head>
         <title>{data.name}</title>
       </Head>

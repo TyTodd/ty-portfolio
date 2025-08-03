@@ -14,6 +14,6 @@ Swift
 
 # Scribe
 
-![youtube](https://youtu.be/DToUhEmfwUI)
+![youtube](DToUhEmfwUI?si=OmpKevamALNjEy1Q)
 
 Scribe is a note taking app that has an integrated math evaluator. The app uses a custom OCR to extract math equations from images and then uses a custom math evaluator to solve the equations and paste the answers back on the page in the user's handwriting. It's built with Swift and the backend is a FastAPI.
